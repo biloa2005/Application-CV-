@@ -24,13 +24,13 @@ const getStarRating=(proficiency:string)=>{
     let filledStars = 0;
 
     switch (proficiency) {
-        case 'Débutant':
+        case 'Debutant':
             filledStars = 1;
             break;
-        case 'Intermédiaire':
+        case 'Intermediaire':
             filledStars = 3;
             break;
-        case 'Avancé':
+        case 'Avance':
             filledStars = 5;
             break;
         default:
