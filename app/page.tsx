@@ -278,7 +278,7 @@ const modal= document.getElementById("my_modal_3") as HTMLDialogElement
             </div>
             <select
               onChange={(e) => setTheme(e.target.value)}
-              value={theme}
+              value={theme??""}
               className="select select-bordered fixed z-[999] select-sm top-12 right-5"
             >
               {themes.map((themeName) => (
@@ -296,7 +296,7 @@ const modal= document.getElementById("my_modal_3") as HTMLDialogElement
               <CVPreview
                 personalDetails={personalDetails}
                 file={file}
-                theme={theme}
+                theme={theme??""}
                 experiences={experiences}
                 educations={educations}
                 languages={languages}
@@ -333,7 +333,7 @@ const modal= document.getElementById("my_modal_3") as HTMLDialogElement
                <CVPreview
                 personalDetails={personalDetails}
                 file={file}
-                theme={theme}
+                theme={theme??""}
                 experiences={experiences}
                 educations={educations}
                 languages={languages}
