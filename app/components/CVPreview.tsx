@@ -1,4 +1,4 @@
-import { PersonalDetails,Experience,Education,Skill, Language, Hobby } from "@/public/type"
+import { PersonalDetails,Experience,Education,Skill, Language, Hobby } from "@/type"
 import Image from "next/image"
 import {Phone,Mail,Star, MapPinCheckInside, BriefcaseBusiness, GraduationCap} from "lucide-react"
 type props={

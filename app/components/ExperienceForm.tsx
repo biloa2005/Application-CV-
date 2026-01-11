@@ -1,4 +1,4 @@
-import { Experience } from "@/public/type";
+import { Experience } from "@/type";
 import { useState } from "react";
 import {Plus} from "lucide-react"
 type Props = {

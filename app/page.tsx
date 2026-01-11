@@ -10,7 +10,7 @@ import {
   Language,
   Skill,
   Hobby,
-} from "@/public/type";
+} from "@/type";
 import { useRef,useEffect, useState } from "react";
 import PersonalDetailsForm from "./components/personalDetailsForm";
 import {
@@ -20,7 +20,7 @@ import {
   languagesPreset,
   skillsPreset,
   hobbiesPreset,
-} from "@/public/preset";
+} from "@/preset";
 import CVPreview from "./components/CVPreview";
 import ExperiencesForm from "./components/ExperienceForm";
 import EducationForm from "./components/EducationForm";

@@ -1,4 +1,4 @@
-import { Skill } from "@/public/type";
+import { Skill } from "@/type";
 import { useState } from "react";
 import {Plus} from "lucide-react"
 type Props={

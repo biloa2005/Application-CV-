@@ -1,4 +1,4 @@
-import { Education } from "@/public/type";
+import { Education } from "@/type";
 import { useState } from "react";
 import {Plus} from "lucide-react"
 type Props = {

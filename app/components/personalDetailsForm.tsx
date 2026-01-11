@@ -1,4 +1,4 @@
-import { PersonalDetails } from "@/public/type";
+import { PersonalDetails } from "@/type";
 
 type props = {
   personalDetails: PersonalDetails;
